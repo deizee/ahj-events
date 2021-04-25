@@ -9,7 +9,7 @@ class Game {
   }
 
   init() {
-    this.gameField.generateGameField();
+    this.gameField.drawGameField();
     this.gameField.addCellClickListener(this.onCellClick.bind(this));
     this.start();
   }

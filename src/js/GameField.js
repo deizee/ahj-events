@@ -5,7 +5,7 @@ class GameField {
     this.cellClickListeners = [];
   }
 
-  generateGameField() {
+  drawGameField() {
     const scoresP = document.createElement('p');
     const missedP = document.createElement('p');
     this.scoresSpan = document.createElement('span');
@@ -58,11 +58,11 @@ class GameField {
   }
 
   renderScores(scores = 0) {
-    this.scoresSpan.textContent = scores;
+    this.scoresSpan.textContent = `${scores}`;
   }
 
   renderMissed(missed = 0) {
-    this.missedSpan.textContent = missed;
+    this.missedSpan.textContent = `${missed}`;
   }
 
   addCellClickListener(callback) {

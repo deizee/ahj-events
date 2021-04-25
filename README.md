@@ -1,3 +1,3 @@
-# AHJ-DOM
+# AHJ-EVENTS
 
-[![Build status](https://ci.appveyor.com/api/projects/status/nvkgkvx4cox776v3?svg=true)](https://ci.appveyor.com/project/deizee/ahj-dom)
+[![Build status](https://ci.appveyor.com/api/projects/status/x77gbhch6mkgukng?svg=true)](https://ci.appveyor.com/project/deizee/ahj-events)
